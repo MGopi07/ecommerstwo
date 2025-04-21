@@ -1919,7 +1919,7 @@ i[class^=flaticon-] {
   height: 100%;
   width: 100%;
   mix-blend-mode: luminosity;
-  opacity: 20%;
+  /* opacity: 20%; */
   z-index: -1;
 }
 
@@ -3175,11 +3175,12 @@ PAGINATION CSS START
 .header-left {
   display: flex;
   align-items: center;
-  gap: 80px;
+  justify-content: space-between;
+  /* gap: 80px; */
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
   .header-left {
-    gap: 45px;
+    /* gap: 45px; */
   }
 }
 
@@ -4149,7 +4150,9 @@ PAGINATION CSS START
 }
 
 .banner-item-4 {
-  min-height: 700px;
+  /* min-height: 700px; */
+  min-height: 500px;
+
 }
 @media (max-width: 575px), only screen and (min-width: 576px) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px) {
   .banner-item-4 {
@@ -4238,7 +4241,8 @@ PAGINATION CSS START
 }
 
 .banner-title-4 {
-  font-size: 80px;
+  /* font-size: 80px; */
+  font-size: 65px;
   font-style: normal;
   font-weight: 600;
   line-height: 1.1;
@@ -4246,32 +4250,40 @@ PAGINATION CSS START
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .banner-title-4 {
-    font-size: 76px;
+    /* font-size: 76px; */
+  font-size: 60px;
+
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .banner-title-4 {
-    font-size: 65px;
+    /* font-size: 65px; */
+  font-size: 48px;
+
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .banner-title-4 {
-    font-size: 44px;
+    /* font-size: 44px; */
+    font-size: 38px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .banner-title-4 {
-    font-size: 36px;
+    /* font-size: 36px; */
+    font-size: 30px;
   }
 }
 @media (max-width: 575px) {
   .banner-title-4 {
-    font-size: 36px;
+    /* font-size: 36px; */
+    font-size: 28px;
   }
 }
 @media (max-width:450px) {
   .banner-title-4 {
-    font-size: 32px;
+    /* font-size: 32px; */
+    font-size: 26px;
   }
 }
 
@@ -12403,7 +12415,9 @@ p.checkout-coupon input[type=text]:focus {
   font-size: 14px;
 }
 .grocery-off__item {
-  padding: 70px 40px;
+  /* padding: 70px 40px; */
+  padding: 100px 40px;
+
 }
 .grocery-off__item .fo-discount {
   display: inline-block;
@@ -12575,7 +12589,7 @@ p.checkout-coupon input[type=text]:focus {
   position: relative;
 }
 .grocery-trendy__tab .nav-link.active#new-tab::after {
-  content: "5";
+  content: "4";
   background-image: url(../imgs/grocery/icon/tag.png);
   color: var(--clr-common-white);
   padding: 2px 14px;
@@ -12588,7 +12602,7 @@ p.checkout-coupon input[type=text]:focus {
   position: relative;
 }
 .grocery-trendy__tab .nav-link.active#top-tab::after {
-  content: "7";
+  content: "3";
   background-image: url(../imgs/grocery/icon/tag.png);
   color: var(--clr-common-white);
   padding: 2px 14px;
@@ -12601,7 +12615,7 @@ p.checkout-coupon input[type=text]:focus {
   position: relative;
 }
 .grocery-trendy__tab .nav-link.active#tensing-tab::after {
-  content: "5";
+  content: "2";
   background-image: url(../imgs/grocery/icon/tag.png);
   color: var(--clr-common-white);
   padding: 2px 14px;
@@ -13383,4 +13397,8 @@ p.checkout-coupon input[type=text]:focus {
   .footer-widget-5-4 {
     width: 100%;
   }
+}
+
+#mobile-menu ul .active a{
+  color: #80b501 !important;
 }

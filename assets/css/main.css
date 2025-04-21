@@ -1,13 +1,3 @@
-/*-----------------------------------------------------------------------------------
-
-    Theme Name: Diango - Health Medical Center HTML5 Template
-    Author: bugfixx
-    Support: mailto:masumkhandakar4@gmail.com
-    Description: Diango - Health Medical Center HTML5 Template
-    Version: 1.0
-	Developer: Sagor Khan Omi
-
------------------------------------------------------------------------------------
 
 /************ TABLE OF CONTENTS ***************
 
@@ -13492,3 +13482,7 @@ p.checkout-coupon input[type=text]:focus {
     width: 100%;
   }
 }/*# sourceMappingURL=main.css.map */
+
+#mobile-menu ul .active a{
+  color: #80b501 !important;
+}
