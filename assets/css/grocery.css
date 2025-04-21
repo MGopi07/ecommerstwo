@@ -12305,7 +12305,9 @@ p.checkout-coupon input[type=text]:focus {
 }
 @media screen and (max-width: 425px) {
   .grocery__product .product-thumb {
-    padding: 60px 30px 40px;
+    /* padding: 60px 30px 40px; */
+    padding: 50px 20px 20px;
+
   }
 }
 .grocery__product .product-action-item {
