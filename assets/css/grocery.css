@@ -9202,7 +9202,8 @@ div[class*=col]:last-child .counter-item-2::after {
 }
 
 .product-thumb {
-  padding: 80px 60px 40px;
+  /* padding: 80px 60px 40px; */
+  padding: 50px 20px 20px;
   overflow: hidden;
   max-width: 370px;
   margin: auto;
@@ -13403,4 +13404,22 @@ p.checkout-coupon input[type=text]:focus {
 
 #mobile-menu ul .active a{
   color: #80b501 !important;
+}
+
+/*-------------*/
+@media screen and (max-width: 585px) {
+  .fo-discount {
+    font-size: 16px !important;
+    line-height: 40px;
+  }
+  .product_name_head{
+    font-size: 20px !important;
+  }
+  .grocery-off__item .solid-btn {
+    background-color: var(--clr-theme-grocery);
+    padding: 5px 15px;
+}
+.solid-btn{
+  height: 50px;
+}
 }
