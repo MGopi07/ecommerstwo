@@ -10491,7 +10491,8 @@ div[class*=col]:last-child .counter-item-2::after {
   color: var(--clr-common-body-text);
   margin-bottom: 0;
   display: inline-block;
-  width: 25%;
+  /* width: 25%; */
+  width: 35%;
 }
 .product__details-info ul li span {
   font-size: 16px;
