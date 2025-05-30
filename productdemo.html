@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Orders</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome for WhatsApp icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: "Segoe UI", sans-serif;
+        }
+
+        .cart-area {
+            padding: 60px 0;
+        }
+
+        .order-card {
+            background-color: #fff;
+            border: 1px solid #dee2e6;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+
+        .order-card:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-img {
+            border-radius: 8px;
+            max-height: 250px;
+            object-fit: contain;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .product-img.product_one {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .order-card h3,
+        .order-card h4 {
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .order-card ul {
+            padding-left: 18px;
+            margin-bottom: 10px;
+        }
+
+        .order-card ul li {
+            font-size: 15px;
+            margin-bottom: 5px;
+        }
+
+        .btn-outline-success i {
+            font-size: 16px;
+        }
+
+        @media (max-width: 767.98px) {
+            .product-img {
+                margin-bottom: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="cart-area">
+        <div class="container">
+            <!-- Order Card 1 -->
+            <div class="order-card">
+                <div class="row align-items-center g-4">
+                    <div class="col-lg-5 col-12">
+                        <img src="./assets/imgs/grocery/11.jpeg" alt="VIS 4X4 T-2000" class="product-img product_one ">
+                    </div>
+                    <div class="col-lg-7 col-12">
+                        <h4>MODEL: VIS 4X4 T-2000 FOUR WHEEL WEEDER</h4>
+                        <ul>
+                            <li>FUEL: PETROL</li>
+                            <li>HP: 7HP</li>
+                            <li>ENGINE TYPE: 4-STROKE, SINGLE CYLINDER, AIR COOLED, OHV ENGINE</li>
+                            <li>START: MANUAL START</li>
+                            <li>GEARS: 2 FORWARD & 1 REVERSE</li>
+                            <li>BLADES: 32 NOS OF BLADE IN FRONT AND 1 SET OF CAGE WHEEL</li>
+                        </ul>
+                        <p class="mb-2">
+                            <span class="text-muted text-decoration-line-through ">MRP: ₹1,10,000</span>
+                            <span class="text-success fw-semibold fs-5 ms-2">Offer Price: ₹97,000</span>
+                        </p>
+                        <a href="https://wa.me/yourphonenumber" target="_blank"
+                            class="btn btn-sm btn-outline-success mt-2">
+                            <i class="fab fa-whatsapp me-1"></i> Contact via WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Order Card 2 -->
+            <div class="order-card">
+                <div class="row align-items-center g-4 flex-md-row-reverse">
+                    <div class="col-md-5">
+                        <img src="./assets/imgs/grocery/12.jpeg" alt="VIS 4X4 T-2700" class="product-img">
+                    </div>
+                    <div class="col-md-7">
+                        <h4>MODEL: VIS 4X4 T-2700 FOUR WHEEL WEEDER</h4>
+                        <ul>
+                            <li>FUEL: DIESEL</li>
+                            <li>HP: 9HP</li>
+                            <li>ENGINE TYPE: 4-STROKE, SINGLE CYLINDER, AIR COOLED, OHV ENGINE</li>
+                            <li>START: MANUAL START & SELF START</li>
+                            <li>GEARS: 2 FORWARD & 1 REVERSE</li>
+                            <li>BLADES: 32 NOS OF BLADE AND 1 SET OF CAGE WHEEL</li>
+                        </ul>
+                        <p class="mb-2">
+                            <span class="text-muted text-decoration-line-through ">MRP: ₹1,85,000</span>
+                            <span class="text-success fw-semibold fs-5 ms-2">Offer Price: ₹1,74,000</span>
+                        </p>
+                        <a href="https://wa.me/yourphonenumber" target="_blank"
+                            class="btn btn-sm btn-outline-success mt-2">
+                            <i class="fab fa-whatsapp me-1"></i> Contact via WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Order Card 3 -->
+            <div class="order-card">
+                <div class="row align-items-center g-4">
+                    <div class="col-md-5">
+                        <img src="./assets/imgs/grocery/13.jpeg" alt="VIS 1000 AGRICART BIKE WEEDER"
+                            class="img-fluid rounded product-img product_one" />
+                    </div>
+                    <div class="col-md-7">
+                        <h4 class="fw-bold">MODEL: VIS 1000 AGRICART BIKE WEEDER</h4>
+                        <ul class="mb-3 ps-3">
+                            <li><strong>FUEL:</strong> PETROL</li>
+                            <li><strong>ENGINE:</strong> 170F/P, OHV ENGINE</li>
+                            <li><strong>HP:</strong> 7HP</li>
+                            <li><strong>BLADES:</strong> 32 NO'S OF WETLAND BLADES</li>
+                            <li><strong>ATTACHMENTS:</strong> NORMAL POWER WEEDER ATTACHMENTS LIKE STEERING, HANDLE BAR
+                                HOLDER, BUMPER, ACCELERATOR CABLE & GEAR ROD</li>
+                            <li><strong>USAGE:</strong> CAN BE USED AS POWER WEEDER ALSO</li>
+                        </ul>
+                        <p class="mb-2">
+                            <span class="text-success text-decoration-line-through fs-5">MRP: ₹55,000</span>
+                            <span class="text-muted fw-semibold ms-2">Offer Price: ₹50,000</span>
+                        </p>
+                        <a href="https://wa.me/yourphonenumber" target="_blank" class="btn btn-sm btn-outline-success">
+                            <i class="fab fa-whatsapp me-1"></i> Contact via WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Order Card 4 -->
+            <div class="order-card">
+                <div class="row align-items-center g-4 flex-md-row-reverse">
+                    <div class="col-md-5">
+                        <img src="./assets/imgs/grocery/14.jpeg" alt="VIS 135E AGRICART BIKE WEEDER"
+                            class="img-fluid rounded product-img" />
+                    </div>
+                    <div class="col-md-7">
+                        <h4 class="fw-bold">MODEL: VIS 135E AGRICART BIKE WEEDER</h4>
+                        <ul class="mb-3 ps-3">
+                            <li><strong>FUEL:</strong> DIESEL</li>
+                            <li><strong>START:</strong> SELF START AND ROPE START</li>
+                            <li><strong>ENGINE:</strong> 186FA</li>
+                            <li><strong>HP:</strong> 9HP</li>
+                            <li><strong>BLADES:</strong> 32 NO'S OF WETLAND BLADES</li>
+                            <li><strong>ATTACHMENTS:</strong> NORMAL POWER WEEDER ATTACHMENTS LIKE STEERING, HANDLE BAR
+                                HOLDER, BUMPER, ACCELERATOR CABLE & GEAR ROD</li>
+                            <li><strong>USAGE:</strong> CAN BE USED AS POWER WEEDER ALSO</li>
+                        </ul>
+                        <p class="mb-2">
+                            <span class="text-muted text-decoration-line-through">MRP: ₹89,000</span>
+                            <span class="text-success fw-semibold fs-5 ms-2">Offer Price: ₹84,000</span>
+                        </p>
+                        <a href="https://wa.me/yourphonenumber" target="_blank" class="btn btn-sm btn-outline-success">
+                            <i class="fab fa-whatsapp me-1"></i> Contact via WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Order Card 5 -->
+            <div class="order-card">
+                <div class="row align-items-center g-4">
+                    <div class="col-md-5">
+                        <img src="./assets/imgs/grocery/15.jpeg" alt="VIS 720D AGRICART BACK ROTARY"
+                            class="img-fluid rounded product-img product_one" />
+                    </div>
+                    <div class="col-md-7">
+                        <h4 class="fw-bold">MODEL: VIS 720D AGRICART BACK ROTARY</h4>
+                        <ul class="mb-3 ps-3">
+                            <li><strong>FUEL:</strong> DIESEL</li>
+                            <li><strong>HP:</strong> 9HP</li>
+                            <li><strong>START:</strong> MANUAL START AND SELF START WITH BATTERY</li>
+                            <li><strong>GEARS:</strong> 2 FORWARD AND 1 REVERSE</li>
+                            <li><strong>ATTACHMENTS:</strong> NORMAL POWER WEEDER ATTACHMENTS LIKE STEERING, HANDLE BAR
+                                HOLDER, BUMPER, ACCELERATOR CABLE & GEAR ROD</li>
+                            <li><strong>USAGE:</strong> CAN BE USED AS POWER WEEDER ALSO</li>
+                        </ul>
+                        <p class="mb-2">
+                            <span class="text-muted text-decoration-line-through">MRP: ₹1,25,000</span>
+                            <span class="text-success fw-semibold fs-5 ms-2">Offer Price: ₹1,18,000</span>
+                        </p>
+                        <a href="https://wa.me/yourphonenumber" target="_blank" class="btn btn-sm btn-outline-success">
+                            <i class="fab fa-whatsapp me-1"></i> Contact via WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+ 
+
+
+</body>
+
+</html>
