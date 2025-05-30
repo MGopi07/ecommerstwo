@@ -14006,6 +14006,12 @@ p.checkout-coupon input[type="text"]:focus {
 .swiper-button-next {
   display: none;
 }
+.banner_heading_tab_view{
+  font-size: 34px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #000;
+}
 @media (max-width: 1020px) {
   .banner_heading_tab_view {
     font-size: 22px;
@@ -14055,12 +14061,7 @@ p.checkout-coupon input[type="text"]:focus {
   margin-bottom: 20px;
   color: #000;
 } */
-.banner_heading_tab_view{
-  font-size: 34px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  color: #000;
-}
+
 .banner-content-4.grocery__content h2,
 ul > li {
   color: black !important;
