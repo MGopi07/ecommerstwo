@@ -14012,7 +14012,15 @@ p.checkout-coupon input[type="text"]:focus {
   margin-bottom: 20px;
   color: #000;
 }
-@media (max-width: 1020px) {
+@media (max-width: 767px) {
+  .banner_heading_tab_view{
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #000;
+}
+}
+/* @media (max-width: 1020px) {
   .banner_heading_tab_view {
     font-size: 22px;
   }
@@ -14033,7 +14041,7 @@ p.checkout-coupon input[type="text"]:focus {
   .pt-100 {
     padding-top: 50px;
   }
-}
+} */
 
 
 .banner-4 {
