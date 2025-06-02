@@ -13971,9 +13971,9 @@ p.checkout-coupon input[type="text"]:focus {
 }
 
 /*----------------*/
-/* .slider-item {
+.slider-item {
   position: relative;
-  height: 700px;
+  /* height: 700px; */
   overflow: hidden;
 }
 
@@ -14005,12 +14005,15 @@ p.checkout-coupon input[type="text"]:focus {
 .swiper-button-prev,
 .swiper-button-next {
   display: none;
-} */
+}
 .banner_heading_tab_view{
   font-size: 34px;
   font-weight: 600;
   margin-bottom: 20px;
   color: #000;
+}
+.banner_heading_tab_view.benner-green{
+  color: white !important;
 }
 @media (max-width: 767px) {
   .banner_heading_tab_view{
@@ -14020,7 +14023,7 @@ p.checkout-coupon input[type="text"]:focus {
   color: #000;
 }
 }
-/* @media (max-width: 1020px) {
+@media (max-width: 1020px) {
   .banner_heading_tab_view {
     font-size: 22px;
   }
@@ -14041,8 +14044,22 @@ p.checkout-coupon input[type="text"]:focus {
   .pt-100 {
     padding-top: 50px;
   }
-} */
+}
 
+@media (max-width: 567px) {
+  .left-slider-content p {
+    display: none;
+  }
+  .right-slider-content p {
+    display: none;
+  }
+  .banner_heading_tab_view {
+    font-size: 12px;
+  }
+  .pt-100 {
+    padding-top: 50px;
+  }
+}
 
 .banner-4 {
   /* background: linear-gradient(
@@ -14054,8 +14071,8 @@ p.checkout-coupon input[type="text"]:focus {
   padding: 100px 30px;
    */
   /* background: linear-gradient(90deg, #23ee8833, #23ee8800); */
-  background: linear-gradient(90deg, #23ee8833, #23ee8800) !important;
-  padding: 50px 30px;
+  /* background: linear-gradient(90deg, #23ee8833, #23ee8800) !important; */
+  /* padding: 50px 30px; */
   color: #fff;
   overflow: hidden;
   width: 100%;
@@ -14155,3 +14172,39 @@ ul > li {
   /* list-style: none; */
   margin-left: 15px;
 }
+
+.buy_now_btn_sec {
+  text-align: center; /* center the button */
+  margin-top: 20px;
+}
+
+.buy_not_btn {
+  text-decoration: none;
+}
+
+.fill-btn-normal {
+  display: inline-block;
+  background-color: #ff6f00; 
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+/* 🔽 Mobile view adjustments */
+@media (max-width: 576px) {
+  .fill-btn-normal {
+    display: block;
+    width: 50%;
+    padding: 5px 10px;
+    font-size: 10px;
+    border-radius: 10px;
+  }
+
+
+
+  
+}
+
