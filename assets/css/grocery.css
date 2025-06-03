@@ -14007,7 +14007,7 @@ p.checkout-coupon input[type="text"]:focus {
   display: none;
 }
 .banner_heading_tab_view{
-  font-size: 34px;
+  font-size: 32px;
   font-weight: 600;
   margin-bottom: 20px;
   color: #000;
@@ -14205,7 +14205,7 @@ ul > li {
   }
   .slider-item img{
     height: 220px;
-    background-size: contain;
+
   }
   
 }
